@@ -1,9 +1,8 @@
-package com.example.labdanp.interfaz
+package com.example.labdanp.interfaces
 
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.GridCells
-import androidx.compose.foundation.lazy.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material3.Text
@@ -23,7 +22,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import com.example.labdanp.ui.theme.PurpleProfund
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun DataScreen(viewModel: DataViewModel) {
     val data: LazyPagingItems<Data> = viewModel.data.collectAsLazyPagingItems()
@@ -64,15 +62,6 @@ fun DataScreen(viewModel: DataViewModel) {
 }
 @Composable
 fun DataItem(data: Data) {
-    Column(modifier = Modifier.padding(16.dp)) {
-        Text(text = "Fecha: ${data.fecha}")
-        Text(text = "Dato X: ${data.datoX}")
-        Text(text = "Comentario: ${data.comentario}")
-    }
-}
-/*
-@Composable
-fun DataItem(data: Data) {
     Card(
         modifier = Modifier
             .padding(5.dp)
@@ -90,7 +79,8 @@ fun DataItem(data: Data) {
                 verticalAlignment = Alignment.CenterVertically
             ){
                 Text(text = "Fecha: ${data.fecha}",
-                    style = TextStyle(color = Color.White))
+                    style = TextStyle(color = Color.White)
+                )
 
                 Spacer(modifier = Modifier.weight(5f))
 
@@ -110,4 +100,4 @@ fun DataItem(data: Data) {
             }
         }
     }
-}*/
+}
