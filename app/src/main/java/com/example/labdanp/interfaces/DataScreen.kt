@@ -1,8 +1,8 @@
 package com.example.labdanp.interfaces
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material3.Text
@@ -26,7 +26,9 @@ import com.example.labdanp.ui.theme.PurpleProfund
 fun DataScreen(viewModel: DataViewModel) {
     val data: LazyPagingItems<Data> = viewModel.data.collectAsLazyPagingItems()
 
-    LazyVerticalGrid(cells = GridCells.Fixed(1)) {
+    LazyColumn(
+        contentPadding = PaddingValues(16.dp)
+    ) {
         items(data.itemCount) { index ->
             val item = data[index]
             if (item != null) {
@@ -39,25 +41,22 @@ fun DataScreen(viewModel: DataViewModel) {
                 )
             }
         }
+    }
 
-        when (data.loadState.append) {
-            is LoadState.Loading -> {
-                println("Cargando datos...")
-                item {
-                    Box(modifier = Modifier.fillMaxWidth().padding(16.dp), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator()
-                    }
-                }
-            }
-            is LoadState.Error -> {
-                val errorMessage = (data.loadState.append as LoadState.Error).error.message
-                item {
-                    Box(modifier = Modifier.fillMaxWidth().padding(16.dp), contentAlignment = Alignment.Center) {
-                        Text(text = "Error al cargar los datos: $errorMessage", textAlign = TextAlign.Center)
-                    }
-                }
+    when (data.loadState.append) {
+        is LoadState.Loading -> {
+            println("Cargando datos...")
+            Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator()
+
             }
         }
+        is LoadState.Error -> {
+            val errorMessage = (data.loadState.append as LoadState.Error).error.message
+            Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+                Text(text = "Error al cargar los datos: $errorMessage", textAlign = TextAlign.Center)
+        }
+    }
     }
 }
 @Composable
