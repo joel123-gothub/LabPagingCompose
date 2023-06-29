@@ -1,0 +1,202 @@
+[
+  {
+    "fecha": "2023-01-01",
+    "datoX": 15,
+    "comentario": "Dato 01"
+  },
+  {
+    "fecha": "2023-02-05",
+    "datoX": 25,
+    "comentario": "Segundo dato"
+  },
+  {
+    "fecha": "2023-03-10",
+    "datoX": 10,
+    "comentario": "Tercer dato"
+  },
+  {
+    "fecha": "2023-04-15",
+    "datoX": 5,
+    "comentario": "Cuarto dato"
+  },
+  {
+    "fecha": "2023-05-20",
+    "datoX": 30,
+    "comentario": "Quinto dato"
+  },
+  {
+    "fecha": "2023-06-25",
+    "datoX": 20,
+    "comentario": "Sexto dato"
+  },
+  {
+    "fecha": "2023-07-30",
+    "datoX": 12,
+    "comentario": "Séptimo dato"
+  },
+  {
+    "fecha": "2023-08-04",
+    "datoX": 8,
+    "comentario": "Octavo dato"
+  },
+  {
+    "fecha": "2023-09-09",
+    "datoX": 18,
+    "comentario": "Noveno dato"
+  },
+  {
+    "fecha": "2023-10-14",
+    "datoX": 22,
+    "comentario": "Décimo dato"
+  },
+  {
+    "fecha": "2023-11-19",
+    "datoX": 13,
+    "comentario": "dato 11vo"
+  },
+  {
+    "fecha": "2023-12-24",
+    "datoX": 7,
+    "comentario": "Duodécimo dato"
+  },
+  {
+    "fecha": "2024-01-29",
+    "datoX": 28,
+    "comentario": "Decimotercer dato"
+  },
+  {
+    "fecha": "2024-02-03",
+    "datoX": 16,
+    "comentario": "Decimocuarto dato"
+  },
+  {
+    "fecha": "2024-03-09",
+    "datoX": 19,
+    "comentario": "Decimoquinto dato"
+  },
+  {
+    "fecha": "2024-04-14",
+    "datoX": 11,
+    "comentario": "Decimosexto dato"
+  },
+  {
+    "fecha": "2024-05-19",
+    "datoX": 23,
+    "comentario": "Decimoséptimo dato"
+  },
+  {
+    "fecha": "2024-06-24",
+    "datoX": 9,
+    "comentario": "Decimoctavo dato"
+  },
+  {
+    "fecha": "2024-07-29",
+    "datoX": 27,
+    "comentario": "Decimonoveno dato"
+  },
+  {
+    "fecha": "2024-08-03",
+    "datoX": 17,
+    "comentario": "Vigésimo dato"
+  },
+  {
+    "fecha": "2024-09-08",
+    "datoX": 14,
+    "comentario": "Vigésimo primer dato"
+  },
+  {
+    "fecha": "2024-10-13",
+    "datoX": 21,
+    "comentario": "Vigésimo segundo dato"
+  },
+  {
+    "fecha": "2024-11-18",
+    "datoX": 6,
+    "comentario": "Vigésimo tercer dato"
+  },
+  {
+    "fecha": "2024-12-23",
+    "datoX": 24,
+    "comentario": "Vigésimo cuarto dato"
+  },
+  {
+    "fecha": "2025-01-28",
+    "datoX": 29,
+    "comentario": "Vigésimo quinto dato"
+  },
+  {
+    "fecha": "2025-02-02",
+    "datoX": 31,
+    "comentario": "Vigésimo sexto dato"
+  },
+  {
+    "fecha": "2025-03-08",
+    "datoX": 33,
+    "comentario": "Vigésimo séptimo dato"
+  },
+  {
+    "fecha": "2025-04-13",
+    "datoX": 36,
+    "comentario": "Vigésimo octavo dato"
+  },
+  {
+    "fecha": "2025-05-18",
+    "datoX": 38,
+    "comentario": "Vigésimo noveno dato"
+  },
+  {
+    "fecha": "2025-06-23",
+    "datoX": 42,
+    "comentario": "Trigésimo dato"
+  },
+  {
+    "fecha": "2025-07-28",
+    "datoX": 50,
+    "comentario": "Trigésimo primer dato"
+  },
+  {
+    "fecha": "2025-08-02",
+    "datoX": 47,
+    "comentario": "Trigésimo segundo dato"
+  },
+  {
+    "fecha": "2025-09-07",
+    "datoX": 55,
+    "comentario": "Trigésimo tercer dato"
+  },
+  {
+    "fecha": "2025-10-12",
+    "datoX": 58,
+    "comentario": "Trigésimo cuarto dato"
+  },
+  {
+    "fecha": "2025-11-17",
+    "datoX": 62,
+    "comentario": "Trigésimo quinto dato"
+  },
+  {
+    "fecha": "2025-12-22",
+    "datoX": 68,
+    "comentario": "Trigésimo sexto dato"
+  },
+  {
+    "fecha": "2026-01-27",
+    "datoX": 73,
+    "comentario": "Trigésimo séptimo dato"
+  },
+  {
+    "fecha": "2026-02-01",
+    "datoX": 80,
+    "comentario": "Trigésimo octavo dato"
+  },
+  {
+    "fecha": "2026-03-07",
+    "datoX": 85,
+    "comentario": "Trigésimo noveno dato"
+  },
+  {
+    "fecha": "2026-04-12",
+    "datoX": 90,
+    "comentario": "Cuadragésimo dato"
+  }
+]
